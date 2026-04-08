@@ -1,0 +1,82 @@
+# -----------------------------------------------------------------------------
+# Secrets / credentials
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials.json
+client_secret*.json
+token.json
+tokens.json
+oauth_token*
+refresh_token*
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+.python-version
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# -----------------------------------------------------------------------------
+# Node / Next.js
+# -----------------------------------------------------------------------------
+node_modules/
+web/node_modules/
+.next/
+web/.next/
+out/
+web/out/
+coverage/
+web/coverage/
+*.tsbuildinfo
+
+# -----------------------------------------------------------------------------
+# Logs / runtime / local data
+# -----------------------------------------------------------------------------
+*.log
+backend.log
+frontend.log
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+tmp/
+.cache/
+
+# -----------------------------------------------------------------------------
+# OS / editor
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
